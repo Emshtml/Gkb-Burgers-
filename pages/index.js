@@ -7,7 +7,7 @@ export default function Home() {
     { nome: "X-Bacon", preco: "R$ 29,90", imagem: "xbacon.jpg" },
     { nome: "X-Tudo", preco: "R$ 30,00", imagem: "/lanches/xtudo.jpg" },
     { nome: "Batata Frita", preco: "R$ 10,00", imagem: "/lanches/batata.jpg" },
-    { nome: "Refrigerante", preco: "R$ 15,00", imagem: "/lanches/refri.jpg" },
+    { nome: "Refrigerante 1l", preco: "R$ 15,00", imagem: "/guarana.jpg" },
   ]);
 
   const numeroWhatsApp = "5511976794749"; 
