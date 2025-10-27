@@ -52,4 +52,70 @@ Antes de começar, certifique-se de ter instalado:
 
 ```bash
 git clone https://github.com/Emshtml/delivery-lanches.git
+Acesse a pasta do projeto
+cd delivery-lanches
+Instale as dependências:
+npm install
+# ou
+yarn
+Inicie o servidor de desenvolvimento:
+npm run dev
+# ou
+yarn dev
+delivery-lanches/
+ ┣ pages/
+ ┃ ┗ index.js              # Página principal
+ ┣ public/
+ ┃ ┣ /lanches/            # Imagens dos lanches
+ ┣ styles/
+ ┃ ┗ globals.css           # Estilos globais com Tailwind
+ ┣ package.json
+ ┣ tailwind.config.js
+ ┗ README.md
+Como Pedir
 
+Cada lanche possui um botão “Pedir no WhatsApp”, que direciona o usuário para o chat com a mensagem pronta, facilitando pedidos rápidos.
+Exemplo de link WhatsApp:
+https://wa.me/5599999999999?text=Olá! Deploy
+
+Para publicar o projeto na web usando Vercel:
+
+Faça login no Vercel
+.
+
+Clique em Import Project → From GitHub.
+
+Selecione o repositório delivery-lanches.
+
+Clique em Deploy.
+
+Aguarde a publicação — o site estará disponível em segundos! pedir um X-Burguer 🍔
+Deploy
+
+Para publicar o projeto na web usando Vercel:
+
+Faça login no Vercel
+.
+
+Clique em Import Project → From GitHub.
+
+Selecione o repositório delivery-lanches.
+
+Clique em Deploy.
+
+Aguarde a publicação — o site estará disponível em segundos!
+🎨 Personalização
+
+Altere os lanches e preços diretamente no arquivo pages/index.js.
+
+Substitua imagens na pasta public/lanches/.
+
+Personalize cores e estilos em styles/globals.css e no Tailwind config
+.Licença
+
+Este projeto está licenciado sob a MIT License.
+
+👨‍💻 Autor
+
+Thereza Candida
+GitHub: https://github.com/Emshtml
