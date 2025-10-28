@@ -1,0 +1,33 @@
+{
+  "name": "gkb-burgers",
+  "version": "1.0.0",
+  "description": "🍔 GKB Burgers - Site moderno de delivery com Next.js e TailwindCSS.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.3"
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "tailwind",
+    "burgers",
+    "delivery",
+    "gkb",
+    "vercel"
+  ],
+  "author": "Emshtml",
+  "license": "MIT"
+}
+
