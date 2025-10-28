@@ -1,121 +1,79 @@
-# 🍔 Burger House — Delivery de Lanches
+# 🍔 GKB Burgers — Site Oficial
 
-![Banner](./public/banner.jpg) <!-- opcional, se tiver uma imagem de capa -->
-
-## Descrição
-
-**Burger House** é um site moderno de delivery de lanches, desenvolvido com **Next.js** e **Tailwind CSS**, com foco em:
-
-- Experiência visual moderna e responsiva.
-- Catálogo de lanches com imagens reais.
-- Botão de pedido direto pelo **WhatsApp**.
-- Layout escuro inspirado em hamburguerias artesanais.
-
-O projeto é ideal para quem quer montar um **delivery online** rápido e funcional, com design atrativo e fácil de usar.
+Bem-vindo ao repositório do **GKB Burgers**, o seu ponto de encontro para saborear os melhores lanches artesanais de São Paulo.
 
 ---
 
-## 🍟 Funcionalidades
+## 🚀 Tecnologias utilizadas
 
-- Catálogo de lanches com imagens, nomes e preços.
-- Botão de pedido via WhatsApp para cada item.
-- Layout responsivo para celulares, tablets e desktop.
-- Tema escuro com cores quentes (amarelo/dourado).
-- Cabeçalho, rodapé e seção de apresentação estilizados.
-- Preparado para deploy rápido no **Vercel**.
+- **Next.js 14**
+- **React 18**
+- **Tailwind CSS 3**
+- **Vercel** para deploy automático
 
 ---
 
-## 💻 Tecnologias Utilizadas
-
-- [Next.js](https://nextjs.org/) — Framework React para SSR/SSG.
-- [React](https://reactjs.org/) — Biblioteca front-end.
-- [Tailwind CSS](https://tailwindcss.com/) — Framework de CSS utilitário.
-- HTML5 e CSS3.
-- Git e GitHub para versionamento.
+## 🧱 Estrutura de pastas
+Gkb-Burgers-/
+├── components/
+│ ├── DeliveryHome.jsx # Página principal do delivery
+│ └── ProductCard.jsx # Card de produto reutilizável
+│
+├── pages/
+│ ├── _app.js # Importa estilos globais
+│ └── index.js # Exibe a tela inicial com DeliveryHome
+│public/
+│ └── images/
+│ ├── logo.png # Logotipo principal
+│ ├── hero.jpg # Banner principal (hero section)
+│ ├── produto1.jpg # X-Burguer Clássico
+│ ├── produto2.jpg # X-Bacon
+│ ├── produto3.jpg # X-Salada
+│ └── produto4.jpg # Combo GKB (lanche + batata + refri)styles/
+│ └── globals.css # Estilos base com Tailwind
+│
+├── tailwind.config.js # Configuração do Tailwind CSS
+├── postcss.config.js # Configuração do PostCSS
+├── package.json # Dependências e scripts
+└── README.md # Este arquivo
 
 ---
 
-## 🚀 Pré-requisitos
-
-Antes de começar, certifique-se de ter instalado:
-
-- [Node.js](https://nodejs.org/) (v18 ou superior)
-- [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/)
-- Conta no [Vercel](https://vercel.com/) (opcional, para deploy)
-
----
-
-## ⚡ Instalação
+## 💡 Como executar localmente
 
 1. Clone o repositório:
-
-```bash
-git clone https://github.com/Emshtml/delivery-lanches.git
-Acesse a pasta do projeto
-cd delivery-lanches
-Instale as dependências:
-npm install
-# ou
-yarn
-Inicie o servidor de desenvolvimento:
+   ```bash
+   git clone https://github.com/Emshtml/Gkb-Burgers-.git
+   cd Gkb-Burgers-
+Instale as dependências:npm install
+Inicie o servidor local:
 npm run dev
-# ou
-yarn dev
-delivery-lanches/
- ┣ pages/
- ┃ ┗ index.js              # Página principal
- ┣ public/
- ┃ ┣ /lanches/            # Imagens dos lanches
- ┣ styles/
- ┃ ┗ globals.css           # Estilos globais com Tailwind
- ┣ package.json
- ┣ tailwind.config.js
- ┗ README.md
-Como Pedir
+Acesse no navegador:http://localhost:3000
+🌐 Deploy
 
-Cada lanche possui um botão “Pedir no WhatsApp”, que direciona o usuário para o chat com a mensagem pronta, facilitando pedidos rápidos.
-Exemplo de link WhatsApp:
-https://wa.me/5599999999999?text=Olá! Deploy
+O deploy é feito automaticamente na Vercel:
+https://gkb-burgers.vercel.app/
+Prévia do layout
 
-Para publicar o projeto na web usando Vercel:
+O site foi redesenhado no estilo do Delivery Davis, com:
 
-Faça login no Vercel
-.
+Hero section destacada
 
-Clique em Import Project → From GitHub.
+Grid de produtos modernos
 
-Selecione o repositório delivery-lanches.
+Botões chamativos de pedido
 
-Clique em Deploy.
-
-Aguarde a publicação — o site estará disponível em segundos! pedir um X-Burguer 🍔
-Deploy
-
-Para publicar o projeto na web usando Vercel:
-
-Faça login no Vercel
-.
-
-Clique em Import Project → From GitHub.
-
-Selecione o repositório delivery-lanches.
-
-Clique em Deploy.
-
-Aguarde a publicação — o site estará disponível em segundos!
-🎨 Personalização
-
-Altere os lanches e preços diretamente no arquivo pages/index.js.
-
-Substitua imagens na pasta public/lanches/.
-
-Personalize cores e estilos em styles/globals.css e no Tailwind config
-.Licença
-
-Este projeto está licenciado sob a MIT License.
-
+Layout otimizado para mobile
 👨‍💻 Autor
+https://github.com/Emshtml
+Desenvolvedor Frontend | Next.js | Tailwind | Vercel
 
-Thereza Candida
-GitHub: https://github.com/Emshtml
+---
+
+### ⚙️ **Como aplicar o commit**
+
+Se estiver local:
+```bash
+git add README.md
+git commit -m "docs: update README with new folder structure and image assets"
+git push
