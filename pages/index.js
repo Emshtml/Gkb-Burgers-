@@ -2,12 +2,12 @@ import { useState } from "react";
 
 export default function Home() {
   const [lanches] = useState([
-    { nome: "X-Burguer", preco: "R$ 22,00", imagem: "xburguer.jpeg" },
-    { nome: "X-Salada", preco: "R$ 22,00", imagem: "xsalada.jpg" },
-    { nome: "X-Bacon", preco: "R$ 29,90", imagem: "xbacon.jpg" },
-    { nome: "X-Tudo", preco: "R$ 30,00", imagem: "/lanches/xtudo.jpg" },
-    { nome: "Batata Frita", preco: "R$ 10,00", imagem: "/lanches/batata.jpg" },
-    { nome: "Refrigerante 600ml", preco: "R$ 15,00", imagem: "/guarana.jpg" },
+    { nome: "X-Burguer", preco: "R$ 22,00", imagem: "/imagem/xburguer.jpeg" },
+    { nome: "X-Salada", preco: "R$ 22,00", imagem: "/imagem/Xsalada.png" },
+    { nome: "X-Bacon", preco: "R$ 29,90", imagem: "/imagem/xbacon.jpeg" },
+    { nome: "X-Tudo", preco: "R$ 30,00", imagem: "/imagem/xtudo.jpeg" },
+    { nome: "Batata Frita", preco: "R$ 10,00", imagem: "/imagem/batata_friita.jpeg" },
+    { nome: "Guaraná 600ml", preco: "R$ 15,00", imagem: "/imagem/guarana-600ml.jpeg" },
   ]);
 
   const numeroWhatsApp = "5511976794749"; 
@@ -73,11 +73,7 @@ export default function Home() {
           ))}
         </div>
       </main>
-
-      {/* Rodapé */}
-      <footer className="bg-zinc-950 text-zinc-400 py-4 text-center mt-10 border-t border-zinc-800">
-        <p>© {new Date().getFullYear()} 🍔 Burger House — Feito com amor e muito sabor ❤️</p>
-      </footer>
     </div>
   );
 }
+
