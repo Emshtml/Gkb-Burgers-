@@ -53,10 +53,7 @@ Acesse no navegador:http://localhost:3000
 
 O deploy é feito automaticamente na Vercel:
 https://gkb-burgers.vercel.app/
-Prévia do layout
-
-O site foi redesenhado no estilo do Delivery Davis, com:
-
+Prévia do layout:
 Hero section destacada
 
 Grid de produtos modernos
