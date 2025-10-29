@@ -4,7 +4,7 @@ export default function Home() {
   const [lanches] = useState([
     { nome: "X-Burguer", preco: "R$ 22,00", imagem: "/imagem/xburguer.jpeg" },
     { nome: "X-Salada", preco: "R$ 22,00", imagem: "/imagem/Xsalada.png" },
-    { nome: "X-Bacon", preco: "R$ 29,90", imagem: "/imagem/xbacon.jpeg" },
+    { nome: "X-Bacon", preco: "R$ 29,90", imagem: "/imagem/xbacon.png" },
     { nome: "X-Tudo", preco: "R$ 30,00", imagem: "/imagem/xtudo.png" },
     { nome: "Batata Frita", preco: "R$ 10,00", imagem: "/imagem/batata_friita.jpeg" },
     { nome: "Guaraná 600ml", preco: "R$ 15,00", imagem: "/imagem/guarana-600ml.jpeg" },
