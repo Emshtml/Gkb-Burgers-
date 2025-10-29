@@ -9,7 +9,8 @@ export default function Home() {
     { nome: "Batata Frita", preco: "R$ 10,00", imagem: "/imagem/batata_friita.jpeg" },
     { nome: "Guaraná 600ml", preco: "R$ 15,00", imagem: "/imagem/guarana-600ml.jpeg" },
  { nome: "Milkshake Chocolate", preco: "R$ 18,00", imagem: "/imagem/milkshake-chocolate.jpeg" }
-]);
+{ nome: "Milkshake Morango", preco: "R$ 18,00", imagem: "/imagem/milkshake-morango.jpeg" }
+);
 
   const numeroWhatsApp = "5511976794749"; 
 
