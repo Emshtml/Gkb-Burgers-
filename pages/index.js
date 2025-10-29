@@ -2,7 +2,7 @@ import { useState } from "react";
 
 export default function Home() {
   const [lanches] = useState([
-    { nome: "X-Burguer", preco: "R$ 22,00", imagem: "xburguer.jpg" },
+    { nome: "X-Burguer", preco: "R$ 22,00", imagem: "xburguer.jpeg" },
     { nome: "X-Salada", preco: "R$ 22,00", imagem: "xsalada.jpg" },
     { nome: "X-Bacon", preco: "R$ 29,90", imagem: "xbacon.jpg" },
     { nome: "X-Tudo", preco: "R$ 30,00", imagem: "/lanches/xtudo.jpg" },
