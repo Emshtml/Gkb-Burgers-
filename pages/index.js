@@ -11,7 +11,7 @@ export default function Home() {
     { nome: "Milkshake Chocolate 700ml", preco: "R$ 18,00", imagem: "/imagem/milkshake-chocolate.jpeg" },
     { nome: "Milkshake Morango 700ml", preco: "R$ 18,00", imagem: "/imagem/milkshake-morango.jpeg" }
 { nome: "bolo de pote chocolate", preco: "R$ 32,00", imagem: "/imagem/bolo_de_pote" }, 
-  ]);
+]);
 
   const numeroWhatsApp = "5511976794749"; 
 
