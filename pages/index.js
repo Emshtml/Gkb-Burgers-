@@ -8,8 +8,9 @@ export default function Home() {
     { nome: "X-Tudo", preco: "R$ 30,00", imagem: "/imagem/xtudo.png" },
     { nome: "Batata Frita", preco: "R$ 10,00", imagem: "/imagem/batata_frita.png" },
     { nome: "Guaraná 600ml", preco: "R$ 15,00", imagem: "/imagem/guarana-600ml.jpeg" },
-    { nome: "Milkshake Chocolate", preco: "R$ 18,00", imagem: "/imagem/milkshake-chocolate.jpeg" },
-    { nome: "Milkshake Morango", preco: "R$ 18,00", imagem: "/imagem/milkshake-morango.jpeg" }
+    { nome: "Milkshake Chocolate 700ml", preco: "R$ 18,00", imagem: "/imagem/milkshake-chocolate.jpeg" },
+    { nome: "Milkshake Morango 700ml", preco: "R$ 18,00", imagem: "/imagem/milkshake-morango.jpeg" }
+{ nome: "bolo de pote chocolate", preco: "R$ 32,00", imagem: "/imagem/bolo_de_pote" }, 
   ]);
 
   const numeroWhatsApp = "5511976794749"; 
