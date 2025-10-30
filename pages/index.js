@@ -10,7 +10,7 @@ export default function Home() {
     { nome: "Guaraná 600ml", preco: "R$ 15,00", imagem: "/imagem/guarana-600ml.jpeg" },
     { nome: "Milkshake Chocolate", preco: "R$ 18,00", imagem: "/imagem/milkshake-chocolate.jpeg" },
     { nome: "Milkshake Morango", preco: "R$ 18,00", imagem: "/imagem/milkshake-morango.jpeg" }
-{ nome: "bolo de pote chocolate", preco: "R$ 32,00", imagem: "/imagem/bolo_de_pote" }, 
+{ nome: "Bolo de Pote", preco: "R$ 22,00", imagem: "/imagem/bolo_de_pote.png" }
 ]);
 
   const numeroWhatsApp = "5511976794749"; 
